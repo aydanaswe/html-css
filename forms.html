@@ -1,6 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Div haqqinda</title>
+        <style> 
+          .follow-button{
+            background-color: rgb(26, 142, 180);
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            margin: 5px 10px;
+            border-radius: 8px;
+          }
+          .cat{
+            width: 150px;
+          }
+          .name{
+            font-weight: 600;
+            margin-left: 10px;
+          }
+          .profile{
+            border: 2px solid gray;
+            display: inline-block;
+          }
+          .followers{
+            margin-left: 10px;
+            
+          }
+        </style>
+       
+      </head>
+      <body>
+        <div class="profile">
+           <img class="cat" src="cat photo.webp">
+           <p class="name">Oliver</p>
+           <p clas="followers">2 followers</p>
+           <button class="follow-button">Follow</button>
+        </div>
+
+       
+        <div class="profile">
+           <img class="cat" src="cute-cat.webp">
+           <p class="name">Mimi</p>
+           <p clas="followers">5 followers</p>
+           <button class="follow-button">Follow</button>
+        </div>
+
+         <div class="profile">
+           <img class="cat" src="cat picture.webp">
+           <p class="name">Rex</p>
+           <p clas="followers">3 followers</p>
+           <button class="follow-button">Follow</button>
+        </div>
+      </body>
+          
        <title>FORM</title>
          <!--part2 2shi tapirma-->
         <style>
@@ -12,27 +64,38 @@
           font-size: 16px;
           font-weight: 500;
           box-shadow: 0 1px 6px gray;
-        }
-
-        .exs-2{
-          background-color: rgb(57, 57, 216);
-          color: white;
-          border: none;
-          border-radius: 7px;
-          padding: 5px 50px;
-        }
-
-        select{
+        }          
+            </style>
+    
+        <!--2tapsirma-->
+          <style>
+             .shenber{
+                height: 100px;
+                width: 100px;
+                background-color: green;
+                border-radius: 50%;
+            }
+              </style>
+          <form>
+        <div class="shenber"></div>
+         </form>
+    
+        <!--Tapsirma-->
+        <head>
+            <style>
+        <body>
+        <form>
+            select{
                 width: 300px;
                 padding: 10px 15px;
                 margin-bottom: 15px;
                 box-sizing:border-box ;
             }
-            select:hover{
+                 select:hover{
                 box-shadow: 5px 5px 7px lightgreen ;
             }
 
-            textarea{
+                       textarea{
                 width: 300px;
                 padding: 10px;
                 border: 2px solid lightcoral;
@@ -41,18 +104,10 @@
             textarea:hover{
                 border: 2px solid lightblue;
             }
-
-             .shenber{
-                height: 100px;
-                width: 100px;
-                background-color: green;
-                border-radius: 50%;
-            }
-            </style>
-        <!--2tapsirma-->
-        <div class="shenber"></div>
-        <!--Tapsirma-->
-        <form>
+                </style>
+            <head>
+                <body>
+            </form>
         <select>
             <option>Xizmetti tanlan</option>
             <option>Shashtarez</option>
@@ -62,10 +117,12 @@
         <br><br>
         <textarea  rols="5" cols="40"  placeholder="Pikirinisti usi jerge jazip ketin"></textarea>
         </form>
-        
+       </body> 
         
           <!--part2 4shi tapirma-->
+     <head>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+              
         <style>
         .exs-3{
         display: inline-block;
@@ -78,23 +135,40 @@
         </style>
     </head>
     <body>
+        
             <!--part2 1shi tapirma-->
+        <form>
           <input type="text" placeholder="Name">
                  <br> 
           <input type="text" placeholder="Email"> 
+        </form>
         
             <!--part2 2shi tapirma-->
+        <form>
       <input type="text" placeholder="Search Google or type a URL" class="part2">
+         </form>
         
           <!--part2 3shi tapirma-->
+       <style>
+         .exs-2{
+          background-color: rgb(57, 57, 216);
+          color: white;
+          border: none;
+          border-radius: 7px;
+          padding: 5px 50px;
+        }
+        </style>
+          <form>
       <input type="text" placeholder="First name">
       <input type="text" placeholder="Last name">
       <br> <br>
       <input type="text" placeholder="Email">
       <br> <br>
       <button class="exs-2">Dizimnen otiw</button>
+               </form>
 
                 <!--part2 4shi tapirma-->
+           <form>
       <input type="text" placeholder="Search" class="exs-3" required>
       <i class="fa-solid fa-magnifying-glass"></i>
         
