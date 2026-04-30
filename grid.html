@@ -25,12 +25,12 @@
             <div style="background-color: lightblue;">col 1</div>
             <div style="background-color: lightpink;">col 2</div>
             <div style="background-color: lightgreen;">col 3</div>
-
+        </style>
            <!--1shi tapsirma-->
            <style>
             .grid{
                 display: grid;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr 2fr;
             }
         </style>
         <div class="grid">
@@ -49,7 +49,19 @@
             <div style="background-color: aquamarine;">250px</div>
             <div style="background-color: blueviolet;">1fr</div>
         </div>
-    
+          
+     <!--3shi tapsirma-->
+             <style>
+            .color{
+                display: grid;
+                grid-template-columns:repeat(3, 200px);
+            }
+          </style>
+        <div class="color">
+            <div style="background-color: blueviolet;">200px</div>
+            <div style="background-color: aquamarine;">200px</div>
+            <div style="background-color: rgb(209, 27, 27);">200px</div>
         </div>
+     
     </body>
   </html>
